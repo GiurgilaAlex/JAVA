@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.3" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="javax.swing.JButton">
+    <string>asd</string>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JButton">
+    <string>asd</string>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JLabel">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTextField">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTextField">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTextField">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JTextField">
+    <void property="text">
+     <string>asdasdasdasd</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JCheckBox" id="JCheckBox0">
+    <void property="actionCommand">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="label">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="model">
+     <void property="actionCommand">
+      <null/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JCheckBox" id="JCheckBox1">
+    <void property="actionCommand">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="label">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="model">
+     <void property="actionCommand">
+      <null/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JCheckBox" id="JCheckBox2">
+    <void property="actionCommand">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="label">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="model">
+     <void property="actionCommand">
+      <null/>
+     </void>
+     <void property="selected">
+      <boolean>true</boolean>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="javax.swing.JCheckBox" id="JCheckBox3">
+    <void property="actionCommand">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="label">
+     <string>asdasdasdasd</string>
+    </void>
+    <void property="model">
+     <void property="actionCommand">
+      <null/>
+     </void>
+     <void property="selected">
+      <boolean>true</boolean>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
