@@ -48,6 +48,10 @@ public class MainFrame extends JFrame {
         propertiesTable.setTableConfig(data);
     }
 
+    public void applyChanges(String x, String y, String width, String height, String text) {
+        this.designPanel.applyChanges(x, y, width, height, text);
+    }
+
     public static void main(String[] args) {
         MainFrame frame = new MainFrame();
     }

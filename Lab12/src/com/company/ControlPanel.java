@@ -33,7 +33,6 @@ public class ControlPanel extends JPanel {
         swingComponentName.setBounds(100, 20, 200, 20);
         add(swingComponentName);
 
-
         JLabel defaultTextLabel = new JLabel("Default text: ");
         Dimension defaultTextLabelSize = defaultTextLabel.getPreferredSize();
         defaultTextLabel.setBounds(10, 70, defaultTextLabelSize.width, defaultTextLabelSize.height);
@@ -46,7 +45,7 @@ public class ControlPanel extends JPanel {
 
         JButton createComponentBtn = new JButton("Create");
         Dimension btnSize = createComponentBtn.getPreferredSize();
-        createComponentBtn.setBounds(160, 120, btnSize.width, btnSize.height);
+        createComponentBtn.setBounds(390, 40, btnSize.width, btnSize.height);
         add(createComponentBtn);
 
         createComponentBtn.addActionListener(new ActionListener() {
@@ -63,7 +62,7 @@ public class ControlPanel extends JPanel {
 
         JButton saveButton = new JButton("Save");
         Dimension saveButtonSize = saveButton.getPreferredSize();
-        saveButton.setBounds(350, 15, saveButtonSize.width, saveButtonSize.height);
+        saveButton.setBounds(320, 15, saveButtonSize.width, saveButtonSize.height);
         add(saveButton);
 
         saveButton.addActionListener(new ActionListener() {
@@ -81,7 +80,7 @@ public class ControlPanel extends JPanel {
 
         JButton loadButton = new JButton("Load");
         Dimension loadButtonSize = loadButton.getPreferredSize();
-        loadButton.setBounds(350, 65, loadButtonSize.width, loadButtonSize.height);
+        loadButton.setBounds(320, 65, loadButtonSize.width, loadButtonSize.height);
         add(loadButton);
 
         loadButton.addActionListener(new ActionListener() {
@@ -94,6 +93,63 @@ public class ControlPanel extends JPanel {
                 } catch (FileNotFoundException ex) {
                     ex.printStackTrace();
                 }
+            }
+        });
+
+        JLabel xLabel = new JLabel("X: ");
+        xLabel.setBounds(10, 110, 20, 20);
+        xLabel.setForeground(Color.white);
+        add(xLabel);
+
+        JTextField xField = new JTextField();
+        xField.setBounds(30, 110, 40,15);
+        add(xField);
+
+        JLabel yLabel = new JLabel("Y: ");
+        yLabel.setBounds(10, 130, 20, 20);
+        yLabel.setForeground(Color.white);
+        add(yLabel);
+
+        JTextField yField = new JTextField();
+        yField.setBounds(30, 130, 40,15);
+        add(yField);
+
+        JLabel textLabel = new JLabel("Text: ");
+        textLabel.setBounds(80, 110, 40, 20);
+        textLabel.setForeground(Color.white);
+        add(textLabel);
+
+        JTextField textField = new JTextField();
+        textField.setBounds(120, 110, 200,20);
+        add(textField);
+
+        JLabel widthLabel = new JLabel("Width: ");
+        widthLabel.setBounds(80, 135, 40, 20);
+        widthLabel.setForeground(Color.white);
+        add(widthLabel);
+
+        JTextField widthField = new JTextField();
+        widthField.setBounds(120, 135, 40,15);
+        add(widthField);
+
+        JLabel heightLabel = new JLabel("Height: ");
+        heightLabel.setBounds(200, 135, 60, 20);
+        heightLabel.setForeground(Color.white);
+        add(heightLabel);
+
+        JTextField heightField = new JTextField();
+        heightField.setBounds(250, 135, 40,15);
+        add(heightField);
+
+        JButton applyBtn = new JButton("Apply");
+        Dimension size = applyBtn.getPreferredSize();
+        applyBtn.setBounds(370, 120, size.width, size.height);
+        add(applyBtn);
+
+        applyBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mainFrame.applyChanges(xField.getText(), yField.getText(), widthField.getText(), heightField.getText(), textField.getText());
             }
         });
     }
